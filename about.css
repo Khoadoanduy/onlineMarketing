@@ -11,7 +11,7 @@ nav{
     top: 0; 
     height: 75px;
     width: 100%;
-    background: #2980b9;
+    background: #140B5C;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 nav .navbar{
@@ -20,7 +20,7 @@ nav .navbar{
     justify-content: space-between;
     height: 100%;
     width: 90%;
-    background: #2980b9; 
+    background: #140B5C; 
     margin: auto; 
 }
 nav .navbar .logo a{
@@ -28,8 +28,11 @@ nav .navbar .logo a{
     font-size: 27px; 
     font-weight: 600;
     text-decoration: none;
-
 }
+.navbar .title_logo span{
+    color: #fff;
+}
+
 nav .navbar .menu{
     display: flex; 
 }
@@ -43,6 +46,7 @@ nav .navbar .menu{
     font-weight: 500;
     text-decoration: none;
 }
+
 
 .content h1{
     margin-top: 100px;
@@ -113,41 +117,7 @@ footer .content .top{
   text-decoration: none;
   transition: all 0.4s ease;
 }
-.top .media-icons a:nth-child(1){
-  background: #4267B2;
-}
-.top .media-icons a:nth-child(1):hover{
-  color: #4267B2;
-  background: #fff;
-}
-.top .media-icons a:nth-child(2){
-  background: #1DA1F2;
-}
-.top .media-icons a:nth-child(2):hover{
-  color: #1DA1F2;
-  background: #fff;
-}
-.top .media-icons a:nth-child(3){
-  background: #E1306C;
-}
-.top .media-icons a:nth-child(3):hover{
-  color: #E1306C;
-  background: #fff;
-}
-.top .media-icons a:nth-child(4){
-  background: #0077B5;
-}
-.top .media-icons a:nth-child(4):hover{
-  color: #0077B5;
-  background: #fff;
-}
-.top .media-icons a:nth-child(5){
-  background: #FF0000;
-}
-.top .media-icons a:nth-child(5):hover{
-  color: #FF0000;
-  background: #fff;
-}
+
 footer .content .link-boxes{
   width: 100%;
   display: flex;
