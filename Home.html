@@ -7,64 +7,126 @@
     <title>Techni</title>
     <link rel="stylesheet" href="Home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-</head>
-<body>
-    <nav>
-        <div class="navbar">
-            <div class="logo">
-              <img src="img/logodark.png" alt="logo" width="50px">
-              <a href="#">Techni</a>
-            </div>
-            <ul class="menu">
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-                <li><a href="Feedback.html">Feedback</a></li>
-                <li><a href="dangnhap.html">Login</a></li>
-          
-            </ul>
-            
-        </div>
-    </nav>
-    <footer>
-        <div class="content">
-          <div class="top">
-            <div class="logo-details">
-              
-              <span class="logo_name">Techni</span>
-            </div>
-          </div>
-          <div class="link-boxes">
-            <ul class="box">
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-                <li><a href="Feedback.html">Feedback</a></li>
-                <li><a href="dangnhap.html">Feedback</a></li>
-            </ul>
-            <ul class="box">
-              <li><a href="#">A</a></li>
-              <li><a href="#">B</a></li>
-              <li><a href="#">C</a></li>
-              <li><a href="#">D</a></li>
-            </ul>
-            <ul class="box input-box">
-              <li class="link_name">Subscribe</li>
-              <li><input type="text" placeholder="Enter your email"></li>
-              <li><input type="button" value="Subscribe"></li>
-            </ul>
-          </div>
-        </div>
-        <div class="bottom-details">
-          <div class="bottom_text">
-            <span class="copyright_text">Copyright © 2021 <a href="#">Techni</a>All rights reserved</span>
-            <span class="policy_terms">
-              <a href="#">Privacy policy</a>
-              <a href="#">Terms & condition</a>
-            </span>
-          </div>
-        </div>
-      </footer>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     
+</head>
+
+
+<body>
+  <nav>
+    <div class="navbar">
+        <div class="logo">
+          <img src="images/logo.png" alt="logo" width="50px">
+          <a href="#">Techni</a>
+        </div>
+        <ul class="menu">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Feedback.html">Feedback</a></li>
+            <li><a href="dangnhap.html">Login</a></li>
+        </ul>
+    </div>
+</nav>
+  <div class="sale">
+    <div class="intro">
+      <h1 class="center">Chào mừng đến với Techni <br> Bạn sẽ thỏa mãn mua sắm mỗi ngày với hỗ trợ tư vấn 24/7 <br> Chúc bạn mua sắm vui vẻ!  </h1>
+      <div class="background"><img src="https://cdn.abcotvs.com/dip/images/6340258_072920-wpvi-best-buy-thanksgiving-video-vid.jpg?w=800&r=16%3A9" alt=""></div>
+    </div>
+    <div class="product-card">
+      <div class="logo-cart">
+        <img src="images/Apple logo.png" alt="product_logo">
+        <i class='bx bx-shopping-bag'></i>
+      </div>
+      <div class="main-images">
+        <img class="red" src="images/red_iphone_case.jpg" alt="red">
+        <img class="orange" src="images/oragne_iphone_case.jpg" alt="orange">
+      </div>
+      <div class="iphone-case-details"></div>
+        <span class="iphone-case-name"> Ốp lưng Iphone 13 PRO</span>
+        <div class="stars">
+          <i class='bx bxs-star' ></i>
+          <i class='bx bxs-star' ></i>
+          <i class='bx bxs-star' ></i>
+          <i class='bx bxs-star' ></i>
+          <i class='bx bx-star' ></i>
+        </div>
+        <div class="color-price">
+          <div class="color-option">
+            <span class="color">Colour:</span>
+            <div class="circles">
+              <span class="circle red active"  id="red"></span>
+              <span class="circle orange " id="orange"></span>
+              
+            </div>
+          </div>
+          <div class="price">
+            <span class="price_num">50.000</span>
+            
+          </div>
+        </div>
+        <div class="button">
+          <div class="button-layer"></div>
+          <button>Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <script>
+    let circle = document.querySelector(".color-option");
+ 
+    circle.addEventListener("click", (e)=>{
+      let target = e.target;
+      if(target.classList.contains("circle")){
+        circle.querySelector(".active").classList.remove("active");
+        target.classList.add("active");
+        document.querySelector(".main-images .active").classList.remove("active");
+        document.querySelector(`.main-images .${target.id}`).classList.add("active");
+      }
+    });
+   </script>
 </body>
+
+
+
+<!-- <footer>
+  <div class="content">
+    <div class="top">
+      <div class="logo-details">
+        
+        <span class="logo_name">Techni</span>
+      </div>
+    </div>
+    <div class="link-boxes">
+      <ul class="box">
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="Feedback.html">Feedback</a></li>
+          <li><a href="dangnhap.html">Feedback</a></li>
+      </ul>
+      <ul class="box">
+        <li><a href="#">A</a></li>
+        <li><a href="#">B</a></li>
+        <li><a href="#">C</a></li>
+        <li><a href="#">D</a></li>
+      </ul>
+      <ul class="box input-box">
+        <li class="link_name">Subscribe</li>
+        <li><input type="text" placeholder="Enter your email"></li>
+        <li><input type="button" value="Subscribe"></li>
+      </ul>
+    </div>
+  </div>
+  <div class="bottom-details">
+    <div class="bottom_text">
+      <span class="copyright_text">Copyright © 2021 <a href="#">Techni</a>All rights reserved</span>
+      <span class="policy_terms">
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms & condition</a>
+      </span>
+    </div>
+  </div>
+</footer> -->
 </html>
