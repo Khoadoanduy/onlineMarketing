@@ -62,6 +62,7 @@ nav .navbar .menu{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .product-card{
   max-width: 355px;
   width: 100%;
@@ -69,7 +70,10 @@ nav .navbar .menu{
   padding: 20px 30px 30px 30px;
   box-shadow: 0 5px 10px rgba(0, 0 , 0, 0.2);
   overflow: hidden;
+  flex-wrap: wrap;
+  display: flex;
 }
+
 .product-card .logo-cart{
   display: flex;
   align-items: center;
@@ -100,13 +104,13 @@ nav .navbar .menu{
   width: 300px;
   object-fit: cover;
 }
-.product-card .iphone-case-details .iphone-case-name{
+.product-card .iphone13pro-case .iphone-case-details .iphone-case-name{
   font-size: 24px;
   font-weight: 500;
   color: #161616;
 
 }
-.product-card .shoe-details .stars i{
+.product-card .iphone-case-details .stars i{
   margin: 0 -1px;
   color: #333;
 }
@@ -160,13 +164,13 @@ nav .navbar .menu{
   box-shadow: 0 0 0 2px #fff,
                0 0 0 4px #FA1795;
 }
-.color-option  .circles .circle.yellow{
-  background: #F5DA00;
-}
 .color-option  .circles .circle.yellow.active{
   box-shadow: 0 0 0 2px #fff,
                0 0 0 4px #F5DA00;
 }
+
+
+
 .color-price .price{
   display: flex;
   flex-direction: column;
