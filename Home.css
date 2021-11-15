@@ -62,7 +62,10 @@ nav .navbar .menu{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+.product{
+  display: flex;
+  flex-wrap: wrap ;
+}
 .product-card{
   max-width: 355px;
   width: 100%;
@@ -70,8 +73,7 @@ nav .navbar .menu{
   padding: 20px 30px 30px 30px;
   box-shadow: 0 5px 10px rgba(0, 0 , 0, 0.2);
   overflow: hidden;
-  flex-wrap: wrap;
-  display: flex;
+  
 }
 
 .product-card .logo-cart{
