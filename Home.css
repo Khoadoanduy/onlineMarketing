@@ -65,6 +65,7 @@ nav .navbar .menu{
 .product{
   display: flex;
   flex-wrap: wrap ;
+  justify-content: space-between;
 }
 .product-card{
   max-width: 355px;
@@ -184,7 +185,13 @@ nav .navbar .menu{
 .color-option  .circles .circle.darkgreen{
   background: #034d19;
 }
-
+.color-option  .circles .circle.green.active{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #1ebb4d;
+}
+.color-option  .circles .circle.green{
+  background: #1ebb4d;
+}
 
 
 .color-price .price{
