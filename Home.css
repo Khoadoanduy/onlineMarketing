@@ -170,6 +170,20 @@ nav .navbar .menu{
   box-shadow: 0 0 0 2px #fff,
                0 0 0 4px #F5DA00;
 }
+.color-option  .circles .circle.brown.active{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #ad4508;
+}
+.color-option  .circles .circle.brown{
+  background: #ad4508;
+}
+.color-option  .circles .circle.darkgreen.active{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #034d19;
+}
+.color-option  .circles .circle.darkgreen{
+  background: #034d19;
+}
 
 
 
