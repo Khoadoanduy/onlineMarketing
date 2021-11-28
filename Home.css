@@ -192,8 +192,206 @@ nav .navbar .menu{
 .color-option  .circles .circle.green{
   background: #1ebb4d;
 }
+/**** iphone 12pro ****/
+.product-card .main-images1 img{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.color-option1  .circles{
+  display: flex;
+}
+.color-option1 .circles .circle1{
+  height: 18px;
+  width: 18px;
+  background: #c01b1b;
+  border-radius: 50%;
+  margin: 0 4px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.color-option1  .circles .circle1.red.active1{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #c21e18;
+}
+.color-option1  .circles .circle.orange{
+  background: #d67b25;
+}
+.color-option1  .circles .circle1.orange.active1{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #d67b25;
+}
+.color-option1  .circles .circle1.blue.active1{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #0071C7;
+}
+.color-option1  .circles .circle1.pink{
+  background: #FA1795;
+}
+.color-option1  .circles .circle1.pink.active1{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #FA1795;
+}
+.color-option1  .circles .circle1.yellow.active1{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #F5DA00;
+}
+.color-option1  .circles .circle1.brown.active1{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #ad4508;
+}
+.color-option1  .circles .circle1.brown{
+  background: #ad4508;
+}
+.color-option1  .circles .circle1.darkgreen.active1{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #034d19;
+}
+.color-option1  .circles .circle1.darkgreen{
+  background: #034d19;
+}
+.color-option1  .circles .circle1.green.active1{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #1ebb4d;
+}
+.color-option1  .circles .circle1.green{
+  background: #1ebb4d;
+}
+/* hết của iphone 12 PRO***/
 
+/**** iphone 6 PLUS ****/
+.product-card .main-images2 img{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.color-option2  .circles{
+  display: flex;
+}
+.color-option2 .circles .circle2{
+  height: 18px;
+  width: 18px;
+  background: #c01b1b;
+  border-radius: 50%;
+  margin: 0 4px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.color-option2  .circles .circle2.red.active2{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #c21e18;
+}
+.color-option2  .circles .circle2.orange{
+  background: #d67b25;
+}
+.color-option2  .circles .circle2.orange.active2{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #d67b25;
+}
+.color-option2  .circles .circle2.blue.active1{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #0071C7;
+}
+.color-option2  .circles .circle2.pink{
+  background: #FA1795;
+}
+.color-option2  .circles .circle2.pink.active2{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #FA1795;
+}
+.color-option2  .circles .circle2.yellow.active1{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #F5DA00;
+}
+.color-option2  .circles .circle2.brown.active1{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #ad4508;
+}
+.color-option2  .circles .circle2.brown{
+  background: #ad4508;
+}
+.color-option2  .circles .circle2.darkgreen.active1{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #034d19;
+}
+.color-option2 .circles .circle2.darkgreen{
+  background: #034d19;
+}
+.color-option2 .circles .circle2.green.active2{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #1ebb4d;
+}
+.color-option2  .circles .circle2.green{
+  background: #1ebb4d;
+}
+/* hết của iphone 6 PLUS***/
 
+/**** iphone XS MAX ****/
+.product-card .main-images3 img{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.color-option3  .circles{
+  display: flex;
+}
+.color-option3 .circles .circle3{
+  height: 18px;
+  width: 18px;
+  background: #c01b1b;
+  border-radius: 50%;
+  margin: 0 4px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.color-option3  .circles .circle3.red.active3{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #c21e18;
+}
+.color-option3  .circles .circle3.orange{
+  background: #d67b25;
+}
+.color-option3  .circles .circle3.orange.active3{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #d67b25;
+}
+.color-option3  .circles .circle3.blue.active3{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #0071C7;
+}
+.color-option3  .circles .circle3.pink{
+  background: #FA1795;
+}
+.color-option3  .circles .circle3.pink.active3{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #FA1795;
+}
+.color-option3  .circles .circle3.yellow.active3{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #F5DA00;
+}
+.color-option3  .circles .circle3.brown.active3{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #ad4508;
+}
+.color-option3  .circles .circle3.brown{
+  background: #ad4508;
+}
+.color-option3  .circles .circle3.darkgreen.active3{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #034d19;
+}
+.color-option3 .circles .circle3.darkgreen{
+  background: #034d19;
+}
+.color-option3 .circles .circle3.green.active3{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #1ebb4d;
+}
+.color-option3 .circles .circle3.green{
+  background: #1ebb4d;
+}
+/* hết của iphone 6 PLUS***/
 .color-price .price{
   display: flex;
   flex-direction: column;
