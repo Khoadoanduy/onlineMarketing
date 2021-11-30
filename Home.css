@@ -700,7 +700,10 @@ footer .content .link-boxes .box{
   font-size: 1.2em;
   margin-right: 25px;
 }
-
+.section-header{
+  align-items: center;
+  justify-content: center;
+}
 .cart-row:last-child {
   border-bottom: 1px solid black;
 }
@@ -732,6 +735,38 @@ footer .content .link-boxes .box{
   margin: 40px auto 80px auto;
   font-size: 1.75em;
 }
+.btn-purchase{
+  position: relative;
+  height: 50px;
+  width: 100%;
+  border-radius: 25px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.btn-purchase .button-layer{
+  position: absolute;
+  height: 100%;
+  width: 300%;
+  left: -100%;
+  background-image: linear-gradient(135deg,#9708CC, #43CBFF,#9708CC, #43CBFF );
+  transition: all 0.4s ease;
+  border-radius: 25PX;
+}
+.btn-purchase :hover .button-layer{
+  left: 0;
+}
+.btn-purchase button{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+}
 .btn-header {
   margin: .5em 15% 2em 15%;
   color: white;
@@ -762,14 +797,14 @@ footer .content .link-boxes .box{
 
 .btn-primary {
   color: white;
-  background-color: #56CCF2;
+  background-color: purple;
   border: none;
   border-radius: .3em;
   font-weight: bold;
 }
 
 .btn-primary:hover {
-  background-color: #2D9CDB;
+  background-color: rgb(60, 25, 189);
 }
 
 footer .bottom-details{
