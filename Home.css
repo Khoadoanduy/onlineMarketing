@@ -156,6 +156,13 @@ nav .navbar .menu{
   box-shadow: 0 0 0 2px #fff,
                0 0 0 4px #d67b25;
 }
+.color-option  .circles .circle.brown{
+  background: #a7760f;
+}
+.color-option  .circles .circle.brown.active{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #a7760f;
+}
 .color-option  .circles .circle.blue.active{
   box-shadow: 0 0 0 2px #fff,
                0 0 0 4px #0071C7;
@@ -409,9 +416,12 @@ nav .navbar .menu{
   cursor: pointer;
   transition: all 0.4s ease;
 }
-.color-option5  .circles .circle3.red-blood.active5{
+.color-option5 .circles .circle5.red-blood{
+  background:darkred;
+}
+.color-option5  .circles .circle5.red-blood.active5{
   box-shadow: 0 0 0 2px #fff,
-               0 0 0 4px rgb(68, 4, 4);
+               0 0 0 4px darkred;
 }
 
 
