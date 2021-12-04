@@ -24,11 +24,11 @@ let circle = document.querySelector(".color-option");
  
     circle2.addEventListener("click", (e)=>{
       let target = e.target;
-      if(target.classList.contains("circle2")){
+      if(target.classList.contains("circle2")){ 
         circle2.querySelector(".active2").classList.remove("active2");
         target.classList.add("active2");
         document.querySelector(".main-images2 .active2").classList.remove("active2");
-        document.querySelector(`.main-images2 .${target.id}`).classList.add("active2");
+        document.querySelector(`.main-images2 .${target.id}`).classList.add("active2"); 
       }
     });
     let circle3 = document.querySelector(".color-option3");
@@ -100,8 +100,8 @@ function addToCartClicked(event) {
   var shopItem = button.parentElement.parentElement
   var title = shopItem.getElementsByClassName('iphone-case-name')[0].innerText
   var price = shopItem.getElementsByClassName('price_num')[0].innerText
-  var imageSrc = shopItem.getElementsByClassName('main-images')[0].src
-  addItemToCart(title, price, imageSrc)
+  //var imageSrc = shopItem.getElementsByClassName('main-images')[0].src
+  addItemToCart(title, price)
   updateCartTotal()
 }
 
@@ -118,7 +118,7 @@ function addItemToCart(title, price, imageSrc) {
   }
   var cartRowContents = `
       <div class="cart-item cart-column">
-          <img class="cart-item-image" src="${imageSrc}" width="100" height="100">
+          
           <span class="cart-item-title">${title}</span>
       </div>
       <span class="cart-price cart-column">${price}</span>
