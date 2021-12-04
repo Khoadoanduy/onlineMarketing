@@ -79,6 +79,7 @@ nav .navbar .menu{
   padding: 20px 30px 30px 30px;
   box-shadow: 0 5px 10px rgba(0, 0 , 0, 0.2);
   overflow: hidden;
+  margin-top: 10px;
   
 }
 
@@ -107,8 +108,38 @@ nav .navbar .menu{
   color: #333;
   
 }
+.product-card .logo-cart-samsung{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-card .logo-cart-samsung img{
+  height: 80px;
+  width: 60px;
+  object-fit: cover;
+
+}
+.product-card .logo-cart-samsung i{
+  font-size: 27px;
+  color: #707070;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+.product-card .logo-cart-samsung img{
+  height: 90%;
+}
+
+.product-card .logo-cart-samsung i:hover{
+  color: #333;
+  
+}
 .product-card .main-images img{
   height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.product-card .main-imagesS img{
+  
   width: 300px;
   object-fit: cover;
 }
@@ -203,6 +234,13 @@ nav .navbar .menu{
 }
 .color-option  .circles .circle.green{
   background: #1ebb4d;
+}
+.color-option .circles .circle.grey{
+  background: grey;
+}
+.color-option  .circles .circle.grey.active{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px grey;
 }
 /**** iphone 12pro ****/
 .product-card .main-images1 img{
@@ -403,6 +441,27 @@ nav .navbar .menu{
 .color-option3 .circles .circle3.green{
   background: #1ebb4d;
 }
+.color-option3 .circles .circle3.grey{
+  background: grey;
+}
+.color-option3  .circles .circle3.grey.active3{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px grey;
+}
+.color-option3 .circles .circle3.black{
+  background: #000;
+}
+.color-option3  .circles .circle3.black.active3{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px #000;
+}
+.color-option3 .circles .circle3.lightblue{
+  background: rgb(67, 113, 199);
+}
+.color-option3  .circles .circle3.lightblue.active3{
+  box-shadow: 0 0 0 2px #fff,
+               0 0 0 4px rgb(67, 113, 199);
+}
 /* hết của iphone 6 PLUS***/
 .product-card .main-images5 img{
   height: 300px;
@@ -498,6 +557,7 @@ footer{
   bottom: 0;
   left: 0;
   display: block;
+  padding:0; 
 }
 footer::before{
   content: '';

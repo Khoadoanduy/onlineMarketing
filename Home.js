@@ -141,9 +141,14 @@ function updateCartTotal() {
       var priceElement = cartRow.getElementsByClassName('cart-price')[0]
       var quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0]
       var price = parseFloat(priceElement.innerText.replace('$', ''))
+      if (price < 50) price= price * 1000000;
+      else if (price == 314) price = price *1;
+      else price = Math.round(price * 1000) / 1
       var quantity = quantityElement.value
+      
       total = total + (price * quantity)
   }
-  total = Math.round(total * 1000) / 1
+    console.log(total)
+  
   document.getElementsByClassName('cart-total-price')[0].innerText = 'VNĐ ' + total
 }

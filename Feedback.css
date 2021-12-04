@@ -142,7 +142,7 @@ body{
 #star-5:checked ~ .content .stars .star-5{
   color: #fd4;
 }
-.wrapper .footer{
+.wrapper .footer1{
   border-top: 1px solid #ccc;
   background: #f2f2f2;
   width: 100%;
@@ -153,44 +153,44 @@ body{
   align-items: center;
   justify-content: space-between;
 }
-.footer span{
+.footer1 span{
   font-size: 17px;
   font-weight: 400;
 }
-.footer .text::before{
+.footer1 .text::before{
   content: "Rate your experience";
 }
-.footer .numb::before{
+.footer1 .numb::before{
   content: "0 out of 5";
 }
-#star-1:checked ~ .footer .text::before{
+#star-1:checked ~ .footer1 .text::before{
   content: "The service is horrible";
 }
-#star-1:checked ~ .footer .numb::before{
+#star-1:checked ~ .footer1 .numb::before{
   content: "1 out of 5";
 }
-#star-2:checked ~ .footer .text::before{
+#star-2:checked ~ .footer1 .text::before{
   content: "The service is bad";
 }
-#star-2:checked ~ .footer .numb::before{
+#star-2:checked ~ .footer1 .numb::before{
   content: "2 out of 5";
 }
-#star-3:checked ~ .footer .text::before{
+#star-3:checked ~ .footer1 .text::before{
   content: "The service is neutral";
 }
-#star-3:checked ~ .footer .numb::before{
+#star-3:checked ~ .footer1 .numb::before{
   content: "3 out of 5";
 }
-#star-4:checked ~ .footer .text::before{
+#star-4:checked ~ .footer1 .text::before{
   content: "The service is good";
 }
-#star-4:checked ~ .footer .numb::before{
+#star-4:checked ~ .footer1 .numb::before{
   content: "4 out of 5";
 }
-#star-5:checked ~ .footer .text::before{
+#star-5:checked ~ .footer1 .text::before{
   content: "The service is great";
 }
-#star-5:checked ~ .footer .numb::before{
+#star-5:checked ~ .footer1 .numb::before{
   content: "5 out of 5";
 }
 input[type="radio"]{
