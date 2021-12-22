@@ -36,7 +36,7 @@ nav .navbar .menu{
 }
 .navbar .menu li{
     list-style: none;
-    margin-left: 10px; 
+    margin: 0px 20px 0px 20px; 
 }
 .navbar .menu li a{ 
     color:  #fff;
