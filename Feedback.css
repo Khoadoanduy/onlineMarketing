@@ -51,7 +51,7 @@ body{
   justify-content: center;
   min-height: 100vh;
     background: #140B5C;
-    background: linear-gradient( #140B5C, #d69c37);
+    background: linear-gradient(to right,#3f3491, #dbe274);
 }
 .wrapper{
   background: #f6f6f6;
