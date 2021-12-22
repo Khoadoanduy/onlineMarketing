@@ -12,7 +12,7 @@ textarea {
   font-family: "Poppins", sans-serif;
 }
 nav{
-  position: absolute;
+  position: fixed;
   left: 0; 
   top: 0; 
   height: 75px;
