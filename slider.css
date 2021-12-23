@@ -2,9 +2,10 @@
   body{
     height: 100vh;
     
-    background: #7D2AE8;
+    
   }
   .container1{
+    background-color: blueviolet;
     margin-top: 75px;
     max-width: 1400px;
     width: 100%;
